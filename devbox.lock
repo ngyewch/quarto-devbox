@@ -1,0 +1,133 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "github:NixOS/nixpkgs/nixpkgs-unstable": {
+      "last_modified": "2025-04-29T13:50:59Z",
+      "resolved": "github:NixOS/nixpkgs/fbc071e5c11e23fba50037de37268e3d8a1858eb?lastModified=1745934659&narHash=sha256-odZyAgjybOV1ha%2FlEoVL5HVOJw1YqFDfem9u3t%2BVB2o%3D"
+    },
+    "julia@1.11.4": {
+      "last_modified": "2025-04-10T20:20:34Z",
+      "resolved": "github:NixOS/nixpkgs/d19cf9dfc633816a437204555afeb9e722386b76#julia",
+      "source": "devbox-search",
+      "version": "1.11.4",
+      "systems": {
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/kx07gvn2jjq9drlb60fvcd0qcj3kjcj5-julia-1.11.4",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/kx07gvn2jjq9drlb60fvcd0qcj3kjcj5-julia-1.11.4"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/8sgaq0cfi85c0awk3x7jw4s7ng98afhg-julia-1.11.4",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/8sgaq0cfi85c0awk3x7jw4s7ng98afhg-julia-1.11.4"
+        }
+      }
+    },
+    "quarto@1.6.43": {
+      "last_modified": "2025-04-09T17:27:46Z",
+      "resolved": "github:NixOS/nixpkgs/67d2b8200c828903b36a6dd0fb952fe424aa0606#quarto",
+      "source": "devbox-search",
+      "version": "1.6.43",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/y9r90nn51wmh6nzljmfqq4jzzbc7cirv-quarto-1.6.43",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/y9r90nn51wmh6nzljmfqq4jzzbc7cirv-quarto-1.6.43"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/yy751f525np472qacswmgly3lfm7hvp9-quarto-1.6.43",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/yy751f525np472qacswmgly3lfm7hvp9-quarto-1.6.43"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/xv995cwm0xgz932npbsi1cg5laiv88xy-quarto-1.6.43",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/xv995cwm0xgz932npbsi1cg5laiv88xy-quarto-1.6.43"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/z8lax4jgkyxc6cxlj7nqdf6rjyypb2a6-quarto-1.6.43",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/z8lax4jgkyxc6cxlj7nqdf6rjyypb2a6-quarto-1.6.43"
+        }
+      }
+    },
+    "which@2.23": {
+      "last_modified": "2025-04-09T00:06:13Z",
+      "resolved": "github:NixOS/nixpkgs/6a39c6e495eefabc935d8ddf66aa45d85b85fa3f#which",
+      "source": "devbox-search",
+      "version": "2.23",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/gh36wdfda4m06nj1gcvrrcgqrxm7pzf6-which-2.23",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/gh36wdfda4m06nj1gcvrrcgqrxm7pzf6-which-2.23"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/3z5n80rhalbj6xx20vq4hpn5jxnp3g2w-which-2.23",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/3z5n80rhalbj6xx20vq4hpn5jxnp3g2w-which-2.23"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/inpxghzwhbag42brj9bjhmlxa8nq505l-which-2.23",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/inpxghzwhbag42brj9bjhmlxa8nq505l-which-2.23"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/5gacdf63qdvhj419snm0kjl2c70iks66-which-2.23",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/5gacdf63qdvhj419snm0kjl2c70iks66-which-2.23"
+        }
+      }
+    }
+  }
+}

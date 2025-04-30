@@ -1,0 +1,22 @@
+{
+    "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.14.2/.schema/devbox.schema.json",
+    "packages": {
+      "julia": "1.11.4",
+      "quarto": "1.6.43",
+      "which": "2.23"
+    },
+    "env": {
+      "XDG_DATA_HOME": "${DEVBOX_PROJECT_ROOT}/.local/share"
+    },
+    "shell": {
+      "init_hook": [
+        "echo 'Welcome to devbox!' > /dev/null"
+      ],
+      "scripts": {
+        "test": [
+          "echo \"Error: no test specified\" && exit 1"
+        ]
+      }
+    }
+  }
+  
